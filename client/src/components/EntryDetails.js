@@ -36,7 +36,7 @@ export default class EntryDetails extends Component {
 
     componentDidMount(){
 
-        axios.get('http://localhost:5000/api/entries')
+        axios.get('/api/entries')
         .then(response => {
             this.setState({ entries: response.data });
         })
