@@ -1,1 +1,3 @@
-# Anjunadeep
+# Anjunadeepers
+
+Anjunadeepers is a pet project of Anjuna fanboy Shreyas Chaudhari. I have been following Anjunadeep since 2015 and have been a big fan of this group. Everytime when the episode of Anjunadeep was broadcasted, I had a routine where in, I used to listen to the episode, checkout the tracklists, if the artist was a first timer on the show, then look for him on various social medias. At times, I used to spend time looking for the hits by the artist. This application is a means of bringing everything under one roof.
