@@ -26,6 +26,10 @@ const EntrySchema = new Schema({
     },
     artistfacebook:{
         type: String
+    },
+    date:{
+        type: Date,
+        default: Date.now
     }
 });
 

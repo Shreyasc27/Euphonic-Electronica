@@ -10,6 +10,7 @@ const Entry = require('../../models/Entry');
 router.get('/', cors(), (req, res, next) => {
     Entry
     .find()
+    .sort({ episodenumber: -1 })
     .then(entries => res.json(entries));
 });
 
