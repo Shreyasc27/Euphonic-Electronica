@@ -5,23 +5,23 @@ import axios from 'axios';
 
 const Entry = props => (
         <tr align="center" >
-            <td>{props.entry.episodenumber}</td>
-            <td>{props.entry.episodedate}</td>
+            <td><b>{props.entry.episodenumber}</b></td>
+            <td><b>{props.entry.episodedate}</b></td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed SoundCloud" to={props.entry.episodesoundcloud} target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACfUlEQVR4Aa3Vv4tcZRSH8c+5c1d318TVDYEERdYiQhQknaXIFhaKhaWNEjYpBNE+/4GVVSpBG0FsBDvtUqtBSBFQiBJYUbKCP6LZmbnve3SYubCz7jDNPPBy5rwwz3fuGeZM5FVv4ENsWC0PsDcJ+M2FZ7adOmWl3L/PD9/fa7FtY5NSrZSJk7Mt6NIyMmfVPNHXcCItKBXLpZkpkUkvDZMaLAiaPUFdKD4qrUl/ZyYONDE9fVDE8YBxPUFMSjXp5SVTnH9O89+Bsn9L/nrbIMKgYVKFuZAWclyOi3vpNODMjrr+mO7gJ1tvfSzWT+sZffeFw8+vydGQpn+aAIE2oaszMTWzF7P9lHb3HXX4j/WLLxn/+I3jPHTpNTQOP3mXZvokjoQ0UEdFHXXKcHKKMjitG3bi2Zc15y/KWoGapBNCXlUef9q4f//Ml0mbSY6qkikfOWPt8nXdnZvWzl0wuvOtNlH72aVFbO6+rRzcVW/f4O5NEUdGlKOOJ58XO5ekRpbKxhaln1tiVhfw8AuvA6+858H1y+qtrzRJk0mOq8HuFVmSSs6JkzrfL2PtxTflqEo0kKNCTUole2Hf6/tZtZT863e6ApoIYlxFTTENmL7OpPTiCmRaDt2NT8VoFsA0oPvgKgc/iyRqkgwyp31XKIVJXYw8/Nvws/fl11+KLjVBlCsy723NjTnbNdkMZC1MaimiXVO78eRu0oME/T6iQROmv+xJf/YPbQTGVYNEQBn+f9ENhwYWTOro4kMTqZndtVNhEYtXct8vvIsTah/Y9t/BUcJyMi1c0bFoXS8XL/8QS/5wVk+LfZv1CX+GlfJown6LPTv1I5yzWn7B3r9mj39+4bJijQAAAABJRU5ErkJggg==" /></ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed SoundCloud" to={props.entry.episodesoundcloud} target="_blank"><img src={process.env.PUBLIC_URL + "/images/SoundCloud.png"} /></ReactGA.OutboundLink>
             </td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed 1001Tracklists" to={props.entry.episodetracklist} episodetracklist="_blank"><img src="https://www.1001tracklists.com/images/static/1001logo_xs.png?v3"/></ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed 1001Tracklists" to={props.entry.episodetracklist} target="_blank"><img src={process.env.PUBLIC_URL + "/images/1001Tracklists.png"} /></ReactGA.OutboundLink>
             </td>
-            <td>{props.entry.artistname}</td>
+            <td><b>{props.entry.artistname}</b></td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed Spotify" to={props.entry.artistspotify} target="_blank">Spotify</ReactGA.OutboundLink>
-            </td>
-            <td>
-                <ReactGA.OutboundLink eventLabel="Accessed Twitter" to={props.entry.artisttwitter} target="_blank">Twitter</ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed Spotify" to={props.entry.artistspotify} target="_blank"><img src={process.env.PUBLIC_URL + "/images/Spotify.png"} /></ReactGA.OutboundLink>
             </td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed Facebook" to={props.entry.artistfacebook} target="_blank">Facebook</ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed Twitter" to={props.entry.artisttwitter} target="_blank"><img src={process.env.PUBLIC_URL + "/images/Twitter.png"} /></ReactGA.OutboundLink>
+            </td>
+            <td>
+                <ReactGA.OutboundLink eventLabel="Accessed Facebook" to={props.entry.artistfacebook} target="_blank"><img src={process.env.PUBLIC_URL + "/images/Facebook.png"} /></ReactGA.OutboundLink>
             </td>
         </tr>
 )
