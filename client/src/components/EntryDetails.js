@@ -58,7 +58,7 @@ export default class EntryDetails extends Component {
     render() {
         return (
             <div>
-                <table className="table table-striped">
+                <table className="table table-striped table-responsive">
                     <thead className="thead-dark">
                         <tr align="center">
                             <th>Episode</th>
