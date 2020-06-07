@@ -1,6 +1,6 @@
-import TagManager from 'react-gtm-module'
+import ReactGA from 'react-ga';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import AppNavbar from './components/AppNavbar';
 
 import { Container } from 'reactstrap';
@@ -12,13 +12,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import EntryDetails from './components/EntryDetails';
 
-const tagManagerArgs = {
-  gtmId: 'GTM-168761615'
-};
-
-TagManager.initialize(tagManagerArgs)
-
 function App() {
+
+  useEffect(() => {
+
+    ReactGA.initialize('UA-168761615-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
+  }, [])
+
   return (
     <Provider store={ store }>
     <div className="App">
