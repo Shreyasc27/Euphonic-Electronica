@@ -15,7 +15,7 @@ class AppNavbar extends Component{
     render(){
         return(
         <div>
-            <Navbar color="dark" dark expand="lg" className="mb-4">
+            <Navbar color="dark" dark expand="lg" className="mb-4" fixed="top">
                 <Container>
                     <Navbar bg="dark" variant="dark">
                         <img
