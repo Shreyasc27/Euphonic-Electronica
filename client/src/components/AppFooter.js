@@ -18,7 +18,7 @@ class AppFooter extends Component{
             <Navbar color="dark" dark className="mb-0" fixed="bottom" align="center" expand="sm">
                 <Container>
                     <Nav className="justify-content-end" navbar/>
-                    <Nav className="justify-content-end" navbar>
+                    <Nav className="justify-content-end" navbar-expand>
                         <NavItem>
                             <NavLink href="https://github.com/Shreyasc27/Anjunadeepers" target="_blank">
                                 <img
