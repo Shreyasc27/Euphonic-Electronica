@@ -20,7 +20,7 @@ class AppFooter extends Component{
                     <Nav className="justify-content-end" navbar/>
                     <Nav className="justify-content-end" navbar-expand>
                         <NavItem>
-                            <NavLink href="https://github.com/Shreyasc27/Anjunadeepers" target="_blank">
+                            <NavLink href="https://github.com/Shreyasc27/Euphonic-Electronica" target="_blank">
                                 <img
                                     src="/images/Github.png"
                                     width="30"
