@@ -1,6 +1,6 @@
 # Euphonic-Electronica
 
-![Application Image](/readMeImages/EuphonicElectronicaSampleImage.png)
+![Brand Banner](/readMeImages/EE-Header.png)
 
 ### Overview
 
@@ -15,6 +15,10 @@ Next step is whenever I was listening the episode on SoundCloud, trying to find 
 Over the period of time, I had developed another hobby where in if the artist is relatively new to the Anjunadeep label, then I used to look out for the artist on Spotify, Twitter & Facebook. Look out for the hit tracks, any festival performance etc and then try to find the new tracks of the artists as well.
 
 I have created this application as a one stop solution to all the aboves problems. This is a standalone application where in for every Anjunadeep episode, a SoundCloud link, the tracklist list on 1001Tracklist and then the Spotify, Facebook, Twitter profiles of the artist are coalated.
+
+### Application 
+
+![Application Image](/readMeImages/EuphonicElectronicaSampleImage.png)
 
 ### Deployment 
 
