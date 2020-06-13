@@ -17,35 +17,45 @@ class AppFooter extends Component{
         <div>
             <Navbar color="dark" dark className="mb-0" fixed="bottom" align="center" expand="sm">
                 <Container>
-                    <Badge pill variant="light">Contact</Badge>
-                    <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="justify-content-end" navbar>
-                            <NavItem>
-                                <NavLink href="https://twitter.com/euphelectronica" target="_blank">
-                                    <img
-                                        src="/images/Twitter.png"
-                                        width="30"
-                                        height="30"
-                                        className="d-inline-block align-top"
-                                        width="30" 
-                                        height="30"
-                                    />
-                                </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="mailTo: euphonicaelectronica@gmil.com" target="_blank">
-                                    <img
-                                        src="/images/Gmail.ico"
-                                        width="30"
-                                        height="30"
-                                        className="d-inline-block align-top"
-                                        width="30" 
-                                        height="30"
-                                    />
-                                </NavLink>
-                            </NavItem>
-                        </Nav>
-                    </Collapse>
+                    <Nav className="justify-content-end" navbar/>
+                    <Nav className="justify-content-end" navbar>
+                        <NavItem>
+                            <NavLink href="https://github.com/Shreyasc27/Anjunadeepers" target="_blank">
+                                <img
+                                    src="/images/Github.png"
+                                    width="30"
+                                    height="30"
+                                    className="d-inline-block align-top"
+                                    width="30" 
+                                    height="30"
+                                />
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="https://twitter.com/euphelectronica" target="_blank">
+                                <img
+                                    src="/images/Twitter.png"
+                                    width="30"
+                                    height="30"
+                                    className="d-inline-block align-top"
+                                    width="30" 
+                                    height="30"
+                                />
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="mailTo: euphonicaelectronica@gmil.com" target="_blank">
+                                <img
+                                    src="/images/Gmail.ico"
+                                    width="30"
+                                    height="30"
+                                    className="d-inline-block align-top"
+                                    width="30" 
+                                    height="30"
+                                />
+                            </NavLink>
+                        </NavItem>
+                    </Nav>
                 </Container>
             </Navbar>
         </div>

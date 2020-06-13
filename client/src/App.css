@@ -21,5 +21,7 @@
 }
 
 .table {
-    padding-top: 80px;
+    padding-top: 400px;
   }
+
+body { padding-top: 80px; }

@@ -2,6 +2,7 @@ import ReactGA from 'react-ga'
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import { Container } from 'reactstrap';
 
 const Entry = props => (
         <tr align="center" >
@@ -58,23 +59,27 @@ export default class EntryDetails extends Component {
     render() {
         return (
             <div>
-                <table className="table table-striped table-responsive">
-                    <thead className="thead-dark">
-                        <tr align="center">
-                            <th>Episode</th>
-                            <th>Date</th>
-                            <th>SoundCloud</th>
-                            <th>Tracklist</th>
-                            <th>Artist</th>
-                            <th>Spotify</th>
-                            <th>Twitter</th>
-                            <th>Facebook</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        { this.entryList() }
-                    </tbody>
-                </table>
+                <Container>
+                    <div class="table-responsive">
+                        <table className="table table-striped">
+                            <thead className="thead-dark">
+                                <tr align="center">
+                                    <th>Episode</th>
+                                    <th>Date</th>
+                                    <th>SoundCloud</th>
+                                    <th>Tracklist</th>
+                                    <th>Artist</th>
+                                    <th>Spotify</th>
+                                    <th>Twitter</th>
+                                    <th>Facebook</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                { this.entryList() }
+                            </tbody>
+                        </table>
+                    </div>
+                </Container>
             </div>
         )
     }
