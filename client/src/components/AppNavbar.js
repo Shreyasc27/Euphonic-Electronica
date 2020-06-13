@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container } from 'reactstrap';
+import React, { Component} from 'react';
+import { Navbar, NavbarBrand, Container, Media} from 'reactstrap';
 
 class AppNavbar extends Component{
     state = {
@@ -17,7 +17,9 @@ class AppNavbar extends Component{
         <div>
             <Navbar color="dark" dark expand="sm" className="mb-4">
                 <Container>
-                    <NavbarBrand href="/" align="center">Anjunadeepers</NavbarBrand>
+                    <NavbarBrand href="/" align="center">
+                        Euphonic Electronica
+                    </NavbarBrand>
                 </Container>
             </Navbar>
         </div>
