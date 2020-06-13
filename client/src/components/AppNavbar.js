@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import { Navbar, NavbarBrand, Container, Media, Nav, NavLink, Form, FormControl, Button} from 'reactstrap';
+import { Navbar, NavbarBrand, Container, NavbarToggler, Nav, NavLink, Collapse, NavItem} from 'reactstrap';
 
 class AppNavbar extends Component{
     state = {
@@ -15,16 +15,17 @@ class AppNavbar extends Component{
     render(){
         return(
         <div>
-            <Navbar color="dark" dark expand="lg" className="mb-4" fixed="top">
+            <Navbar color="dark" dark expand="sm" className="mb-5" fixed="top">
                 <Container>
                     <Navbar bg="dark" variant="dark">
                         <img
-                            src="favicon.png"
+                            src="images/favicon.png"
                             width="30"
                             height="30"
                             className="d-inline-block align-top"
                             alt="Euphonic Electronica Logo"
-                            width="30" height="30"
+                            width="30" 
+                            height="30"
                         />
                         <NavbarBrand>  </NavbarBrand>
                         <NavbarBrand>Euphonic Electronica</NavbarBrand>

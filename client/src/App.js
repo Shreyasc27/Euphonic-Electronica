@@ -2,6 +2,7 @@ import ReactGA from 'react-ga';
 
 import React, { useEffect } from 'react';
 import AppNavbar from './components/AppNavbar';
+import AppFooter from './components/AppFooter';
 
 import { Container } from 'reactstrap';
 import { Provider } from 'react-redux'; 
@@ -30,6 +31,7 @@ function App() {
           <EntryDetails/>
         </BrowserRouter>
       </Container>
+      <AppFooter/>
     </div>
     </Provider>
   );
