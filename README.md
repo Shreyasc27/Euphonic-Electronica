@@ -33,6 +33,14 @@ I have created this application as a one stop solution to all the aboves challen
 5. Google Analytics
 6. Heroku
 
+### Credits
+
+Logo & Banner Image is created using https://hatchful.shopify.com/
+
+## Code of Conduct
+
+Please refer to the code of conduct [here](CODE_OF_CONDUCT.md).
+
 ### License
 
 This project is licensed under the terms of the MIT license.
