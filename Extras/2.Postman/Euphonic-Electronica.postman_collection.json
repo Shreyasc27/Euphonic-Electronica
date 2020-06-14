@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "7976ee10-f667-4562-875e-c691e8de3529",
+		"name": "Euphonic-Electronica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all entries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/entries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"entries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create an entry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"episodenumber\": 302,\n    \"episodedate\": \"28-May-2020\",\n    \"episodesoundcloud\": \"https://soundcloud.com/anjunadeep/the-anjunadeep-edition-305\",\n    \"episodetracklist\": \"https://www.1001tracklists.com/tracklist/2cpc8u0t/jody-wisternoff-the-anjunadeep-edition-305-2020-05-28.html\",\n    \"artistname\": \"Jody Wisternoff\",\n    \"artistspotify\": \"https://open.artist-spotify.com/artist/5gTVJRQmuS88nOhhdHqErL\",\n    \"artisttwitter\": \"https://artist-twitter.com/jodywisternoff\",\n    \"artistfacebook\": \"https://www.artist-facebook.com/jodywisternoff\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/entries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"entries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete an entry",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/entries/5edb836da804254b12a12c8f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"entries",
+						"5edb836da804254b12a12c8f"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
