@@ -16,10 +16,6 @@ Over the period of time, I had developed another hobby where in if the artist is
 
 I have created this application as a one stop solution to all the aboves challenges. This is a standalone application where in for every Anjunadeep episode, a SoundCloud link, the tracklist list on 1001Tracklist and then the Spotify, Facebook, Twitter profiles of the artist are coalated.
 
-### Application 
-
-![Application Image](/readMeImages/EuphonicElectronicaSampleImage.png)
-
 ### Deployment 
 
 [euphonic-electronica](https://euphonic-electronica.herokuapp.com/)
@@ -33,11 +29,15 @@ I have created this application as a one stop solution to all the aboves challen
 5. Google Analytics
 6. Heroku
 
+### Application 
+
+![Application Image](/readMeImages/EuphonicElectronicaSampleImage.png)
+
 ### Credits
 
 Logo & Banner Image is created using https://hatchful.shopify.com/
 
-## Code of Conduct
+### Code of Conduct
 
 Please refer to the code of conduct [here](CODE_OF_CONDUCT.md).
 
