@@ -8,7 +8,7 @@ const path = require('path');
 var app = express();
 app.use(express.json());
 
-db = "mongodb+srv://" + process.env.USERNAME + ":" + process.env.PASSWORD + db
+db = "mongodb+srv://" + process.env.USERNAME + ":" + process.env.PASSWORD + "@" + process.env.CLUSTER + "/" + process.env.DATABASE + db
 
 mongoose
 .connect(db, { useNewUrlParser: true , useUnifiedTopology: true })
