@@ -4,7 +4,7 @@
 
 ## Overview
 
-Euphonic-Electronica is a pet project of Anjuna fanboy <a href="https://www.linkedin.com/in/shreyassanjeevchaudhari/" target="_blank">Shreyas Chaudhari</a> & <a href="www.linkedin.com/in/priyankarchaudhary" target="_blank">Priyanka Chaudhary</a>. I have been following Anjunadeep since almost episode no 40. As on today, unless I go back and check when the episode was published; I would not even remember since when I have been following [Anjunadeep](https://anjunadeep.com/).
+Euphonic-Electronica is a pet project of Anjuna fanboy <a href="https://www.linkedin.com/in/shreyassanjeevchaudhari/" target="_blank">Shreyas Chaudhari</a> & <a href="https://www.linkedin.com/in/priyankarchaudhary" target="_blank">Priyanka Chaudhary</a>. I have been following Anjunadeep since almost episode no 40. As on today, unless I go back and check when the episode was published; I would not even remember since when I have been following [Anjunadeep](https://anjunadeep.com/).
 
 Needles to say, I'm a big fan of this group. Everytime when the episode of <a href="https://anjunadeep.com/" target="_blank">Anjunadeep</a> is broadcasted, I had a routine which I used to follow. 
 
