@@ -33,10 +33,16 @@ I have created this application as a one stop solution to all the aboves challen
 
 ![Application Image](/readMeImages/EuphonicElectronicaSampleImage.png)
 
+#### Contact
+
+1. [Twitter](https://twitter.com/euphelectronica)
+2. [Gmail](euphonicelectronica@gmail.com)
+
 #### Credits
 
-Logo & Banner Image of Euphonic Electronica is created using https://hatchful.shopify.com/
-Images used are the logos owned by the respective companies -
+Logo & Banner Image of Euphonic Electronica is created using https://hatchful.shopify.com/.
+
+Logos & Icons are the property of the respective companies -
 1. [1001tracklists](https://www.1001tracklists.com/)
 2. [Facebook](https://www.facebook.com/)
 3. [Github](https://github.com/)

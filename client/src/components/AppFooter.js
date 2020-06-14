@@ -1,4 +1,5 @@
 import React, { Component} from 'react';
+import ReactGA from 'react-ga';
 import { Navbar, NavbarBrand, Container, Media, Nav, NavLink, Collapse, NavItem, Button, Badge} from 'reactstrap';
 
 class AppFooter extends Component{
@@ -20,7 +21,8 @@ class AppFooter extends Component{
                     <Nav className="justify-content-end" navbar/>
                     <Nav className="justify-content-end" navbar-expand>
                         <NavItem>
-                            <NavLink href="https://github.com/Shreyasc27/Euphonic-Electronica" target="_blank">
+                            <NavLink>
+                            <ReactGA.OutboundLink eventLabel="Github - Shreyasc27/Euphonic-Electronica" to="https://github.com/Shreyasc27/Euphonic-Electronica#euphonic-electronica" target="_blank">
                                 <img
                                     src="/images/Github.png"
                                     width="30"
@@ -29,10 +31,12 @@ class AppFooter extends Component{
                                     width="30" 
                                     height="30"
                                 />
+                            </ReactGA.OutboundLink>
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://twitter.com/euphelectronica" target="_blank">
+                            <NavLink>
+                            <ReactGA.OutboundLink eventLabel="Twitter - Euphonic Electronica" to="https://twitter.com/euphelectronica" target="_blank">
                                 <img
                                     src="/images/Twitter.png"
                                     width="30"
@@ -41,10 +45,12 @@ class AppFooter extends Component{
                                     width="30" 
                                     height="30"
                                 />
+                            </ReactGA.OutboundLink>
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink href="mailTo: euphonicaelectronica@gmil.com" target="_blank">
+                        {/* <NavItem>
+                            <NavLink>
+                            <ReactGA.OutboundLink eventLabel="Email - Euphonic Electronica" to="mailTo: euphonicaelectronica@gmil.com" target="_blank">
                                 <img
                                     src="/images/Gmail.ico"
                                     width="30"
@@ -53,8 +59,9 @@ class AppFooter extends Component{
                                     width="30" 
                                     height="30"
                                 />
+                            </ReactGA.OutboundLink>
                             </NavLink>
-                        </NavItem>
+                        </NavItem> */}
                     </Nav>
                 </Container>
             </Navbar>
