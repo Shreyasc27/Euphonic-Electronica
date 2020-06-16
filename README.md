@@ -28,6 +28,7 @@ I have created this application as a one stop solution to all the aboves challen
 4. NodeJS
 5. Google Analytics
 6. Heroku
+7. CircleCI
 
 ## Application 
 
