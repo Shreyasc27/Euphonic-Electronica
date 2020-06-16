@@ -24,6 +24,9 @@ const Entry = props => (
             <td>
                 <ReactGA.OutboundLink eventLabel="Accessed Facebook" to={props.entry.artistfacebook} target="_blank"><img src={process.env.PUBLIC_URL + "/images/Facebook.png"} /></ReactGA.OutboundLink>
             </td>
+            <td>
+                <ReactGA.OutboundLink eventLabel="Accessed YouTube" to={"https://www.youtube.com/results?search_query=" + props.entry.artistname} target="_blank"><img src={process.env.PUBLIC_URL + "/images/YouTube.png"} /></ReactGA.OutboundLink>
+            </td>
         </tr>
 )
 
@@ -72,6 +75,7 @@ export default class EntryDetails extends Component {
                                     <th>Spotify</th>
                                     <th>Twitter</th>
                                     <th>Facebook</th>
+                                    <th>YouTube</th>
                                 </tr>
                             </thead>
                             <tbody>
