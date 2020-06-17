@@ -2,13 +2,12 @@ const express = require('express');
 const mongoose = require('mongoose');
 const entries = require('./routes/api/entries');
 const dotenv = require('dotenv').config();
-var db = require('./config/key').mongoURI;
 const path = require('path');
 
 var app = express();
 app.use(express.json());
 
-db = "mongodb+srv://" + process.env.USERNAME + ":" + process.env.PASSWORD + "@" + process.env.CLUSTER + "/" + process.env.DATABASE + db
+var db = "mongodb+srv://" + process.env.USERNAME + ":" + process.env.PASSWORD + "@" + process.env.CLUSTER + "/" + process.env.DATABASE + "?retryWrites=true&w=majority"
 
 mongoose
 .connect(db, { useNewUrlParser: true , useUnifiedTopology: true })
