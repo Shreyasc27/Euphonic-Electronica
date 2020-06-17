@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import ReactGA from 'react-ga';
-import { Navbar, NavbarBrand, Container, Media, Nav, NavLink, Collapse, NavItem, Button, Badge} from 'reactstrap';
+import { Navbar, Container, Nav, NavLink, NavItem} from 'reactstrap';
 
 class AppFooter extends Component{
     state = {
@@ -25,11 +25,10 @@ class AppFooter extends Component{
                             <ReactGA.OutboundLink eventLabel="Github - Shreyasc27/Euphonic-Electronica" to="https://github.com/Shreyasc27/Euphonic-Electronica#euphonic-electronica" target="_blank">
                                 <img
                                     src="/images/Github.png"
+                                    alt="Github"
                                     width="30"
                                     height="30"
                                     className="d-inline-block align-top"
-                                    width="30" 
-                                    height="30"
                                 />
                             </ReactGA.OutboundLink>
                             </NavLink>
@@ -39,11 +38,10 @@ class AppFooter extends Component{
                             <ReactGA.OutboundLink eventLabel="Twitter - Euphonic Electronica" to="https://twitter.com/euphelectronica" target="_blank">
                                 <img
                                     src="/images/Twitter.png"
+                                    alt="Twitter"
                                     width="30"
                                     height="30"
                                     className="d-inline-block align-top"
-                                    width="30" 
-                                    height="30"
                                 />
                             </ReactGA.OutboundLink>
                             </NavLink>

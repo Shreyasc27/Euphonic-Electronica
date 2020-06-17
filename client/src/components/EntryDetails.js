@@ -8,23 +8,23 @@ const Entry = props => (
             <td><b>{props.entry.episodenumber}</b></td>
             <td><b>{props.entry.episodedate}</b></td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed SoundCloud" to={props.entry.episodesoundcloud} target="_blank"><img src={process.env.PUBLIC_URL + "/images/SoundCloud.png"} /></ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed SoundCloud" to={props.entry.episodesoundcloud} target="_blank"><img alt='SoundCloud' src={process.env.PUBLIC_URL + "/images/SoundCloud.png"} /></ReactGA.OutboundLink>
             </td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed 1001Tracklists" to={props.entry.episodetracklist} target="_blank"><img src={process.env.PUBLIC_URL + "/images/1001Tracklists.png"} /></ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed 1001Tracklists" to={props.entry.episodetracklist} target="_blank"><img alt='1001Tracklist' src={process.env.PUBLIC_URL + "/images/1001Tracklists.png"} /></ReactGA.OutboundLink>
             </td>
             <td><b>{props.entry.artistname}</b></td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed Spotify" to={props.entry.artistspotify} target="_blank"><img src={process.env.PUBLIC_URL + "/images/Spotify.png"} /></ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed Spotify" to={props.entry.artistspotify} target="_blank"><img alt='Spotify' src={process.env.PUBLIC_URL + "/images/Spotify.png"} /></ReactGA.OutboundLink>
             </td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed Twitter" to={props.entry.artisttwitter} target="_blank"><img src={process.env.PUBLIC_URL + "/images/Twitter.png"} /></ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed Twitter" to={props.entry.artisttwitter} target="_blank"><img alt='Twitter' src={process.env.PUBLIC_URL + "/images/Twitter.png"} /></ReactGA.OutboundLink>
             </td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed Facebook" to={props.entry.artistfacebook} target="_blank"><img src={process.env.PUBLIC_URL + "/images/Facebook.png"} /></ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed Facebook" to={props.entry.artistfacebook} target="_blank"><img alt='Facebook' src={process.env.PUBLIC_URL + "/images/Facebook.png"} /></ReactGA.OutboundLink>
             </td>
             <td>
-                <ReactGA.OutboundLink eventLabel="Accessed YouTube" to={"https://www.youtube.com/results?search_query=" + props.entry.artistname} target="_blank"><img src={process.env.PUBLIC_URL + "/images/YouTube.png"} /></ReactGA.OutboundLink>
+                <ReactGA.OutboundLink eventLabel="Accessed YouTube" to={"https://www.youtube.com/results?search_query=" + props.entry.artistname} target="_blank"><img alt='YouTube' src={process.env.PUBLIC_URL + "/images/YouTube.png"} /></ReactGA.OutboundLink>
             </td>
         </tr>
 )

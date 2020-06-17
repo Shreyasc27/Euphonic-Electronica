@@ -24,8 +24,6 @@ class AppNavbar extends Component{
                             height="30"
                             className="d-inline-block align-top"
                             alt="Euphonic Electronica Logo"
-                            width="30" 
-                            height="30"
                         />
                         <NavbarBrand>  </NavbarBrand>
                         <NavbarBrand>Euphonic Electronica</NavbarBrand>
