@@ -1,22 +1,22 @@
-# Euphonic-Electronica
+# Euphonic Electronica
 
 ![Brand Banner](/readMeImages/EuphonicElectronicaHeader.png)
 
 ## Overview
 
-Euphonic-Electronica is a pet project of Anjuna fanboy <a href="https://www.linkedin.com/in/shreyassanjeevchaudhari/" target="_blank">Shreyas Chaudhari</a> & <a href="https://www.linkedin.com/in/priyankarchaudhary" target="_blank">Priyanka Chaudhary</a>. I have been following Anjunadeep since almost episode 40. As of today, unless I go back and check when that episode was published; I would not even remember since when I had been following [Anjunadeep](https://anjunadeep.com/).
+Euphonic-Electronica is a pet project of Anjuna fanboy <a href="https://www.linkedin.com/in/shreyassanjeevchaudhari/" target="_blank">Shreyas Chaudhari</a> & <a href="https://www.linkedin.com/in/priyankarchaudhary" target="_blank">Priyanka Chaudhary</a>. I have been following Anjunadeep since almost episode 40. As of today, unless I go back and check when that episode was published; I would not even remember since when I have been following [Anjunadeep](https://anjunadeep.com/).
 
 Needles to say, I'm a big fan of this group. Everytime when the episode of <a href="https://anjunadeep.com/" target="_blank">Anjunadeep</a> is broadcasted, I had a routine to follow. 
 
 First step for me after the episode was broadcasted was to check if the episode was uploaded to SoundCloud. Majority of times, because of the difference in the time zone, I used to miss out the live broadcast. Finding episode uploaded to the SoundCloud used to be a big relief.
 
-Next, whenever I was listening the episode on SoundCloud, I used to try to find out the names of the tracks. I tried using Shazam numerous times but majority of times, it was of no use. Then came the 1001Tracklists. Since then, finding the ID of the song was just a cake. Thanks to the community.
+Now, when I was listening the episode on SoundCloud, I used to try to find out the names of the tracks. I tried using Shazam numerous times but majority of times, it was of no use. Then came the 1001Tracklists. Since then, IDing the song just became a cake walk. Thanks to the community.
 
 Over the period of time, I had developed another hobby where in if the artist is relatively new to the <a href="https://anjunadeep.com/" target="_blank">Anjunadeep</a> label, then I used to look out for the artist on Spotify, Facebook, Twitter, YouTube. Look out for the hit tracks, any festival performance etc and then try to find the new tracks of the artists as well.
 
 I have created this application as a one stop solution to all the aboves challenges. This is a standalone application where in for every Anjunadeep episode, a SoundCloud link, the tracklist list on 1001Tracklist and then the Spotify, Facebook, Twitter, YouTube profiles of the artist are coalated.
 
-## Deployment 
+## Deployment Url
 
  <a href="https://euphonic-electronica.herokuapp.com/" target="_blank">Euphonic Electronica</a>
 
