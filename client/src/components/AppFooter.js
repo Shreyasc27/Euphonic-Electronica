@@ -46,11 +46,11 @@ class AppFooter extends Component{
                             </ReactGA.OutboundLink>
                             </NavLink>
                         </NavItem>
-                        {/* <NavItem>
+                        {<NavItem>
                             <NavLink>
-                            <ReactGA.OutboundLink eventLabel="Email - Euphonic Electronica" to="mailTo: euphonicaelectronica@gmil.com" target="_blank">
+                            <ReactGA.OutboundLink eventLabel="Instagram - EuphonicElectronica" to="https://instagram.com/euphonicelectronica" target="_blank">
                                 <img
-                                    src="/images/Gmail.ico"
+                                    src="/images/Instagram.png"
                                     width="30"
                                     height="30"
                                     className="d-inline-block align-top"
@@ -59,7 +59,7 @@ class AppFooter extends Component{
                                 />
                             </ReactGA.OutboundLink>
                             </NavLink>
-                        </NavItem> */}
+                        </NavItem> }
                     </Nav>
                 </Container>
             </Navbar>
