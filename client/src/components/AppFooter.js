@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import ReactGA from 'react-ga';
-import { Navbar, Container, Nav, NavLink, NavItem} from 'reactstrap';
+import { Navbar, Container, Nav, NavItem} from 'reactstrap';
 
 class AppFooter extends Component{
     state = {
@@ -19,9 +19,8 @@ class AppFooter extends Component{
             <Navbar color="dark" dark className="mb-0" fixed="bottom" align="center" expand="sm">
                 <Container>
                     <Nav className="justify-content-end" navbar/>
-                    <Nav className="justify-content-end" navbar-expand>
+                    <Nav className="justify-content-end" navbar-expand="true">
                         <NavItem>
-                            <NavLink>
                             <ReactGA.OutboundLink eventLabel="Github - Shreyasc27/Euphonic-Electronica" to="https://github.com/Shreyasc27/Euphonic-Electronica#euphonic-electronica" target="_blank">
                                 <img
                                     src="/images/Github.png"
@@ -31,11 +30,9 @@ class AppFooter extends Component{
                                     className="d-inline-block align-top"
                                 />
                             </ReactGA.OutboundLink>
-                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink>
-                            <ReactGA.OutboundLink eventLabel="Twitter - Euphonic Electronica" to="https://twitter.com/euphelectronica" target="_blank">
+                            <ReactGA.OutboundLink style={{ marginLeft: 30 }} eventLabel="Twitter - Euphonic Electronica" to="https://twitter.com/euphelectronica" target="_blank">
                                 <img
                                     src="/images/Twitter.png"
                                     alt="Twitter"
@@ -44,21 +41,17 @@ class AppFooter extends Component{
                                     className="d-inline-block align-top"
                                 />
                             </ReactGA.OutboundLink>
-                            </NavLink>
                         </NavItem>
                         {<NavItem>
-                            <NavLink>
-                            <ReactGA.OutboundLink eventLabel="Instagram - EuphonicElectronica" to="https://instagram.com/euphonicelectronica" target="_blank">
+                            <ReactGA.OutboundLink style={{ marginLeft: 30, marginRight: 15  }} eventLabel="Instagram - EuphonicElectronica" to="https://instagram.com/euphonicelectronica" target="_blank">
                                 <img
                                     src="/images/Instagram.png"
                                     width="30"
                                     height="30"
                                     className="d-inline-block align-top"
-                                    width="30" 
-                                    height="30"
+                                    alt="Instagram"
                                 />
                             </ReactGA.OutboundLink>
-                            </NavLink>
                         </NavItem> }
                     </Nav>
                 </Container>

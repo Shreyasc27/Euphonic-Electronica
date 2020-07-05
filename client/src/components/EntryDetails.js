@@ -53,7 +53,7 @@ export default class EntryDetails extends Component {
     entryList(){
 
         return this.state.entries.map(currentEntry => {
-            return <Entry entry={currentEntry}/>;
+            return <Entry entry={currentEntry} key={currentEntry.episodenumber}/>;
         })
 
     }
@@ -62,7 +62,7 @@ export default class EntryDetails extends Component {
         return (
             <div>
                 <Container>
-                    <div class="table-responsive">
+                    <div className="table-responsive">
                         <table className="table table-striped">
                             <thead className="thead-dark">
                                 <tr align="center">
